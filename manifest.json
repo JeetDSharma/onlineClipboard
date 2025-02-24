@@ -1,0 +1,9 @@
+{
+    "name": "Online Clipbaord",
+    "version": "0.1.0",
+    "description": "A simple online clipboard",
+    "permissions": ["storage", "tabs", "clipboardWrite", "clipboardRead"],
+    "host_permissions": ["*://*/*"]
+
+
+}
