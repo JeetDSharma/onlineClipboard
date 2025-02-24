@@ -3,7 +3,13 @@
     "version": "0.1.0",
     "description": "A simple online clipboard",
     "permissions": ["storage", "tabs", "clipboardWrite", "clipboardRead"],
-    "host_permissions": ["*://*/*"]
+    "host_permissions": ["*://*/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
 
 
 }
